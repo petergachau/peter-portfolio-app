@@ -1,0 +1,182 @@
+.projects{
+    background-color: burlywood;
+}
+.project-title{
+    text-align: center;
+    color: blueviolet;
+}
+.main-card-projects{
+   display: flex;
+   flex-direction: row;
+   margin: 0.5rem;
+   gap: 2.5rem;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+
+}
+.card-projects{
+    display: flex;
+    flex-direction: row; 
+   
+     gap: 1.5rem;
+    background-color: rgb(240, 235, 235);
+    height: 7rem;
+    width: 23rem; 
+     align-items: center;
+    justify-items: center;
+    margin: 0.5rem; 
+    border-radius: 1rem;
+    
+
+}
+.card-projects:hover{
+    background-color: rgb(168, 219, 202);
+    
+}
+.native-1{
+    opacity: 0;
+    /* color: white; */
+}
+.native-1:hover{
+    opacity: 1;
+    color: blue;
+}
+@media screen and (max-width:560) {
+    .main-card-projects{
+        margin: 0.05rem !important;
+        contain: content;
+        
+    }
+    .native-1{
+        margin-left: 0!important;
+        margin-right: 1rem;
+    }
+    .card-projects{
+        display: flex;
+        
+        flex-wrap: wrap !important;
+        contain: content;
+        width: 20rem !important;
+        gap: 0.5rem;
+        margin-left: 1rem;
+
+    } 
+    .rating{
+        width: 3rem !important;
+        margin-top: 0.05rem !important;
+        margin-bottom: 0.05rem !important;
+    }
+    .embend{
+        width: 0.5rem !important;
+        margin-top: 0.05rem !important;
+        margin-bottom: 0.05rem !important;
+        margin-right: 0.005rem !important;
+    }
+    .project-title{
+        font-size: 12px !important;
+        font-weight: 100px !important;
+    margin-left: 0.05rem;
+    }
+}
+.project-title{
+    font-size: 14px !important;
+    margin-left: 0.5rem;
+    
+    
+}
+.rating{
+    
+    height: 1rem;
+    width: 5rem;
+    background-color: rgb(122, 180, 161);
+    padding: 0.5rem;
+    margin-top: 00.5rem;
+    margin-bottom: 00.5rem;
+    
+}
+.native{
+    display: flex;
+    flex-direction: row;
+}
+
+.embend{
+    
+    height: 1rem !important;
+    width: 2rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    padding: 0.5rem;
+   margin-top: 00.5rem;
+   margin-bottom: 00.5rem;
+}
+.embend1{
+    
+    height: 1rem !important;
+    width: 1rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    
+}
+.embend2{
+    
+    height: 1rem !important;
+    width: 2.7rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    
+}
+.embend3{
+    
+    height: 1rem !important;
+    width: 3rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    
+}
+.embend4{
+    
+    height: 1rem !important;
+    width: 2rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    
+}
+.embend5{
+    
+    height: 1rem !important;
+    width: 3.5rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    
+}
+.embend6{
+    
+    height: 1rem !important;
+    width: 1.5rem !important;
+    background-color: rgb(230, 163, 21) !important;
+    
+}
+/* .buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 4rem;
+   
+    
+}
+.btn1{
+    width: 5rem;
+    background-color: blueviolet;
+    border-radius: 0.6rem;
+}
+.btn2{
+    background-color: blueviolet;
+    border-radius: 0.6rem;
+    margin-left: 2rem;
+}
+
+@media screen and (max-width:760) {
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin: 0.4rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+} */
