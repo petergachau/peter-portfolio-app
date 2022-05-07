@@ -21,7 +21,7 @@ const App=()=> {
     transition:'all 658ms ease-in-out'  }
   return (
     <>
-    <BrowserRouter>
+    
      <ThemeProvider theme={theme}>
        <GlobalStyles/>
        
@@ -41,7 +41,7 @@ const App=()=> {
        <Footer/>
        <hr/>
      </ThemeProvider>
-     </BrowserRouter>
+     
      
     </>
   );
