@@ -41,6 +41,7 @@
 .native-1:hover{
     opacity: 1;
     color: blue;
+    font-size: 12px;
 }
 @media screen and (max-width:560) {
     .main-card-projects{

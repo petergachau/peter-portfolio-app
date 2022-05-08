@@ -24,8 +24,8 @@ const App=()=> {
     
      <ThemeProvider theme={theme}>
        <GlobalStyles/>
-       
-       <Navbar/>
+       <BrowserRouter>
+       <Navbar/> 
        <Hero/>
       
        
@@ -40,6 +40,7 @@ const App=()=> {
        <hr/>
        <Footer/>
        <hr/>
+       </BrowserRouter>
      </ThemeProvider>
      
      

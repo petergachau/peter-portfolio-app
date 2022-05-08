@@ -1,5 +1,4 @@
 import React ,{useState} from 'react'
-import {BsLayoutTextSidebarReverse} from 'react-icons/bs'
 import { HashLink as Link } from 'react-router-hash-link'
 
 import { NavItems } from '../../data/NavItems'
@@ -7,6 +6,7 @@ import { Nav,NavItemstyled, Icons,NavLink,Profile, Logo,MenuIcon, Lineone,NavLis
 import {FaYoutube,FaTwitter,FaGithub} from 'react-icons/fa'
 import { CTA } from '../Styles/Layout/Common'
 import seScrollDirection from '../../hooks/useScrollDirection'
+import { HashLink } from 'react-router-hash-link'
 const Navbar = () => {
 const [menuOpen , setMenuOpen]=useState(false)
 const scrollDirection=seScrollDirection('down');
@@ -15,11 +15,12 @@ const scrollDirection=seScrollDirection('down');
     <>
     <Nav scrollDirection={scrollDirection}>
     
-      <div>
+      {/* <div>
         <a href='#hero-section'>
           <Logo>CODE</Logo>
         </a>
-      </div>
+      </div> */}
+      <h2>..</h2>
       <MenuIcon menuOpen={menuOpen} onClick={()=> setMenuOpen(!menuOpen)} >
         <Lineone menuOpen={menuOpen}/>
         <LineTwo menuOpen={menuOpen}/>
@@ -41,9 +42,10 @@ const scrollDirection=seScrollDirection('down');
             </NavLink>
           ): null}
             {navItem.text ? (
-              <Link to={navItem.href}>
+              // < to={navItem.href}>
+              <HashLink to={navItem.href}>
               <NavLink >{navItem.text}</NavLink>
-           </Link> ):null}
+          </HashLink>  ):null}
           {
             navItem.hasSocialIcons ? (
            <Icons>

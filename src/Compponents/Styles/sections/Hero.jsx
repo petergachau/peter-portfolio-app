@@ -14,7 +14,7 @@ const bounce= keyframes`
 `
 
 export const HeroSection=styled.section`
-    width:50rem;
+    width:45rem;
     height:90vh;
     /* background: linear-gradient(
         135deg,
@@ -32,17 +32,22 @@ background-image: url('./images/up.svg');
 
 background-repeat: no-repeat;   
 text-align: center;
+align-items: center;
 background-size:contain;
-margin-left: 22rem;
+margin-left: 32rem !important;
 margin-top: 7rem;
 @media screen and (max-width:768px)  {
-        height: 19rem !important;
+        /* height:  !important; */
     width: 17rem !important;
     display: flex;
     flex-wrap:wrap;
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-left: 0rem !important;
 margin-top: 8rem;
+margin-left: 10rem;
     }
 `
 

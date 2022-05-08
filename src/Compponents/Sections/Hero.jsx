@@ -11,10 +11,10 @@ const Hero = () => {
     
     
 {/* <div className='hero'> */}
-    <HeroSection>
+    <div>
 {/* <div style={{backgroundRepeat:'no-repeat'}}> */}
-  <HeroContent id='hero'>
-   <h1> hello am Peter Gachau</h1> 
+  <div className='card-main-hero' id='hero'>
+   <h5> Hello am Peter Gachau</h5> 
    <h3 className='hero-text'>
                             {''}
                             <Typical
@@ -38,13 +38,13 @@ const Hero = () => {
               get resume
             </CTA>
                         </div>
-  </HeroContent>
+  </div>
  
 {/* </div> */}
  <Arrow href='#about'>
-<FaArrowDown/>
- </Arrow>
-  </HeroSection>
+   <FaArrowDown/>
+     </Arrow>
+  </div>
     {/* </div> */}
     
     </>

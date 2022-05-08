@@ -41,7 +41,6 @@ display: none;
 position: absolute;
 right: 20px;
 margin: 0.3rem;
-
 z-index: 999;
 @media(max-width:${({theme})=>theme.mobile})  {
     display: inline-block;
@@ -91,8 +90,9 @@ export const LineThree= styled.div`
 export const NavList=styled.ul`
     display:flex;
     align-items:center;
-    justify-content: flex-end;
-    font-size: 14px;
+    /* justify-content: flex-end; */
+    justify-content: space-evenly;
+    font-size: 17px;
     flex-wrap: wrap;
     list-style: none;
     @media(max-width:${({theme})=>theme.mobile})  {
@@ -108,11 +108,8 @@ export const NavList=styled.ul`
     justify-content: flex-start;
     flex-direction: column;
     z-index: 998;
-
-
     
 }
-
 `
 export const NavItemstyled=styled.li`
     margin: 0.2rem 0.2rem !important;
@@ -138,7 +135,6 @@ export const NavItemstyled=styled.li`
    
     &:hover{
         color: ${({theme})=>theme.colors.orange};
-
       &::after{
         content:'';
         display: block;
@@ -146,7 +142,6 @@ export const NavItemstyled=styled.li`
         width: 100%;
         height: 3px;
         background-color: ${({theme})=>theme.colors.orange};
-
         transition: all ease-in-out 300ms ;
       }  
     }
@@ -180,12 +175,9 @@ export const NavItemstyled=styled.li`
     display: flex;
     justify-content:space-around;
     margin-bottom:0.8rem ;
-
     a{
         margin: 0 0.4rem;
         font-size:1.5rem;
     }
     }
     `
-       
-    

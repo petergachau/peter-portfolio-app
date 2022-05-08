@@ -42,13 +42,16 @@ const Projects = () => {
           <div className='native'>
           <div className="rating"></div><span className='embend'></span>
         </div>
-        
+        <a className='native-1'  href='https://001-resort.netlify.app/'>check out</a>
+
         </div>
         <div className="card-projects">
           <h4 className='project-title'>Mern Stack</h4>
           <div className='native'>
           <div className="rating"></div><span className='embend'></span>
         </div>
+        <a className='native-1'  href='https://001-resort.netlify.app/'>check out</a>
+
         </div>
         <div className="card-projects">
           <h4 className='project-title'>MongoDb </h4>
